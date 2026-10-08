@@ -135,7 +135,7 @@ function buildUrl(language, startDate, durationMs, progressMessage, finishedMess
     parameters.append('style', styling);
   }
 
-  return 'https://wop-timer-eal.pages.dev/?' + parameters;
+  return 'https://wop-timer-eal.pages.dev/timer/?' + parameters;
 }
 
 function buildWikitext(language, template, url, score, height, width) {
