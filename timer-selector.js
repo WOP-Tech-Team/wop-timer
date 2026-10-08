@@ -135,7 +135,7 @@ function buildUrl(language, startDate, durationMs, progressMessage, finishedMess
     parameters.append('style', styling);
   }
 
-  return 'https://timer.a8mc.top/timer/?' + parameters;
+  return 'https://wop-timer-eal.pages.dev/?' + parameters;
 }
 
 function buildWikitext(language, template, url, score, height, width) {
